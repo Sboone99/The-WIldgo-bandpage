@@ -1,6 +1,16 @@
-  let mL = document.getElementById("ml")
-  console.log(mL);
+let mL= document.querySelectorAll(".ml")
+console.log(mL.length);
+
+mL.forEach(function(elem){
+    elem.addEventListener("click", function(){
+        alert("still under construction")
+    })
+})
+
+
+
+
+
+
+
  
- function underConstruction(){
-  alert("Still under construction");
- }
